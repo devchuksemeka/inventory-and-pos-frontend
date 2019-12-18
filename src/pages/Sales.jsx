@@ -21,7 +21,6 @@ const SALES_QUERIES = gql`
             _id
             product
             quantity
-            quantity
             unit_price
             total_price
             date
@@ -45,8 +44,8 @@ export default class Sales extends Component {
           <Row>
             <Col md={12}>
               <Card
-                title="Purchases"
-                category="List of all purchases"
+                title="Saless"
+                category="List of all Sales"
                 ctTableFullWidth
                 ctTableResponsive
                 content={
@@ -79,7 +78,7 @@ export default class Sales extends Component {
                                   <tr key={product._id}>
                                     <td>{product._id}</td>
                                     <td>{product.product}</td>
-                                    <td>{product.quantiy}</td>
+                                    <td>{product.quantity}</td>
                                     <td>{product.unit_price}</td>
                                     <td>{product.total_price}</td>
                                     <td>{product.category}</td>

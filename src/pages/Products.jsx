@@ -112,8 +112,8 @@ export default class Products extends Component {
           <Row>
             <Col md={12}>
               <Card
-                title="Events"
-                category="List of all events"
+                title="Products"
+                category="List of all products"
                 ctTableFullWidth
                 ctTableResponsive
                 content={

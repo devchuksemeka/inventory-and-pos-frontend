@@ -27,7 +27,7 @@ class Footer extends Component {
             &copy; {new Date().getFullYear()}{" "}
             <NavLink
               to="#">
-              TAMEinitiative
+              Inventory App
             </NavLink>
             &nbsp; All Right Reserved.
           </p>
