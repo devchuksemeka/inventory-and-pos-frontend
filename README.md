@@ -1,1 +1,1 @@
-# TAME Initiative Admin Portal
+# INVENTORY MGT SYSTEM
